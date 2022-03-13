@@ -1,0 +1,132 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #282425;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffc400;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+  font-size: 44px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #282425;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #282425;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  text-transform: none;
+  color: #282425;
+}
+
+p {
+  color: #f5f5f5;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Sekce a barvy pozadí */
+section {
+  padding: 50px 15%;
+  overflow: auto;
+}
+
+.omne {
+  background-color: #282425;
+}
+
+/* Sekce O mně */
+.foto-omne {
+  float: none;
+  width: 300px;
+  margin-right: 0px;
+  margin-left: 370px;
+  /*border-radius: 50%;*/
+  opacity: 40%;
+}
+
+/* Hlavička */
+.hlavicka {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #f5f5f5;
+  padding: 30px 20px;
+}
+
+/* Hlavní menu */
+.menu {
+  list-style: none;
+  text-align: center;
+  color: #f5f5f5;
+  background-color: #282425;
+  border-bottom: 0.3px solid #ffc400;
+  border-top: 0.3px solid #ffc400;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffc400;
+}
+
+.menu a:hover {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #f5f5f5;
+}
+
+/* Patička */
+.footer {
+  padding: 0 0;
+  text-align: center;
+  background-color: #282425;
+  color: #f5f5f5;
+  font-size: 4px;
+  border-top: 1px solid #ffc400;
+}
