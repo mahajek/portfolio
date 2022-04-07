@@ -126,15 +126,18 @@ ul {
 }*/
 
 .contact {
-  display: block;
-  position: relative;
-  margin-left: 300px;
-  margin-right: 100px;
-  margin-top: 100px;
   color: #f5f5f5;
   font-size: 16px;
-  text-align: justify;
+  text-align: center;
   line-height: 2;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
 }
 
 /* Patička */
